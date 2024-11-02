@@ -4,16 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="" />
+    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/MyMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw11/MyMathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw11_1/StringUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/redrover/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "YakushinSar"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/YakushinSar/Java2024ProjectMaven.git",
+    "accountId": "e75a8f14-0452-41fa-9cb4-f43400469f16"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2nz7WiMyoHKu60cg6sbviciR2iC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,11 +53,16 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.MyMathTest.executor": "Run",
+    "TestNG.MyMathTest.testMultiply.executor": "Run",
+    "TestNG.MyMathTest.testSum.executor": "Run",
+    "TestNG.StringUtilsTest.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "E:/Intellij files/Java2024MavenProject/src/main/java/school/redrover/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.StringUtilsTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="school.redrover.Main" />
       <module name="Java2024MavenProject" />
@@ -40,8 +76,82 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyMathTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java2024MavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw11" />
+      <option name="MAIN_CLASS_NAME" value="hw11.MyMathTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMathTest.testMultiply" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java2024MavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw11" />
+      <option name="MAIN_CLASS_NAME" value="hw11.MyMathTest" />
+      <option name="METHOD_NAME" value="testMultiply" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMathTest.testSum" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java2024MavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw11" />
+      <option name="MAIN_CLASS_NAME" value="hw11.MyMathTest" />
+      <option name="METHOD_NAME" value="testSum" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java2024MavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw11_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw11_1" />
+      <option name="MAIN_CLASS_NAME" value="hw11_1.StringUtilsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StringUtilsTest" />
+        <item itemvalue="TestNG.MyMathTest" />
+        <item itemvalue="TestNG.MyMathTest.testMultiply" />
+        <item itemvalue="TestNG.MyMathTest.testSum" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
