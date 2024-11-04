@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/MyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw11/MyMathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw11_1/StringUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="[+] hw11">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson12_1/Lesson12_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson12_1/Sid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson12_1/SidTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/redrover/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,24 +20,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "YakushinSar"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YakushinSar&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/YakushinSar/Java2024ProjectMaven.git",
-    "accountId": "e75a8f14-0452-41fa-9cb4-f43400469f16"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YakushinSar/Java2024ProjectMaven.git&quot;,
+    &quot;accountId&quot;: &quot;e75a8f14-0452-41fa-9cb4-f43400469f16&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -52,23 +51,38 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Sid.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "TestNG.MyMathTest.executor": "Run",
     "TestNG.MyMathTest.testMultiply.executor": "Run",
     "TestNG.MyMathTest.testSum.executor": "Run",
+    "TestNG.SidTest.executor": "Run",
     "TestNG.StringUtilsTest.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Intellij files/Java2024ProjectMaven",
     "onboarding.tips.debug.path": "E:/Intellij files/Java2024MavenProject/src/main/java/school/redrover/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.StringUtilsTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.redrover.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson12_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SidTest">
+    <configuration name="Sid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson12_1.Sid" />
       <module name="Java2024MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="school.redrover.*" />
+          <option name="PATTERN" value="hw12_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,18 +125,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMathTest.testSum" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SidTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java2024MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw11.*" />
+          <option name="PATTERN" value="lesson12_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hw11" />
-      <option name="MAIN_CLASS_NAME" value="hw11.MyMathTest" />
-      <option name="METHOD_NAME" value="testSum" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="lesson12_1" />
+      <option name="MAIN_CLASS_NAME" value="lesson12_1.SidTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SidTest" />
+        <item itemvalue="Application.Sid" />
         <item itemvalue="TestNG.StringUtilsTest" />
         <item itemvalue="TestNG.MyMathTest" />
         <item itemvalue="TestNG.MyMathTest.testMultiply" />
-        <item itemvalue="TestNG.MyMathTest.testSum" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +178,19 @@
       <option name="presentableId" value="Default" />
       <updated>1729964085958</updated>
     </task>
+    <task id="LOCAL-00001" summary="[+] hw11">
+      <option name="closed" value="true" />
+      <created>1730566278241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730566278241</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[+] hw11" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] hw11" />
   </component>
 </project>
