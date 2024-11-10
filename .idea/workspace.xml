@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="[+] hw11">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson12_1/Lesson12_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson12_1/Sid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson12_1/SidTest.java" afterDir="false" />
+    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="[+] lesson12_1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson15/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,20 +50,26 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Sid.executor": "Run",
+    "Maven.Java2024MavenProject [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "TestNG.MainTest.executor": "Run",
+    "TestNG.MainTest.test.executor": "Run",
     "TestNG.MyMathTest.executor": "Run",
     "TestNG.MyMathTest.testMultiply.executor": "Run",
     "TestNG.MyMathTest.testSum.executor": "Run",
     "TestNG.SidTest.executor": "Run",
     "TestNG.StringUtilsTest.executor": "Run",
+    "TestNG.Test.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Intellij files/Java2024ProjectMaven",
-    "onboarding.tips.debug.path": "E:/Intellij files/Java2024MavenProject/src/main/java/school/redrover/Main.java"
+    "onboarding.tips.debug.path": "E:/Intellij files/Java2024MavenProject/src/main/java/school/redrover/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,7 +80,7 @@
       <recent name="lesson12_1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SidTest">
+  <component name="RunManager" selected="TestNG.MainTest">
     <configuration name="Sid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson12_1.Sid" />
       <module name="Java2024MavenProject" />
@@ -90,16 +94,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMathTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java2024MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw11.*" />
+          <option name="PATTERN" value="lesson15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hw11" />
-      <option name="MAIN_CLASS_NAME" value="hw11.MyMathTest" />
+      <option name="PACKAGE_NAME" value="lesson15" />
+      <option name="MAIN_CLASS_NAME" value="lesson15.MainTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -107,17 +111,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMathTest.testMultiply" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java2024MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw11.*" />
+          <option name="PATTERN" value="lesson15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hw11" />
-      <option name="MAIN_CLASS_NAME" value="hw11.MyMathTest" />
-      <option name="METHOD_NAME" value="testMultiply" />
+      <option name="PACKAGE_NAME" value="lesson15" />
+      <option name="MAIN_CLASS_NAME" value="lesson15.MainTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MainTest" />
+        <item itemvalue="TestNG.MainTest.test" />
         <item itemvalue="TestNG.SidTest" />
         <item itemvalue="Application.Sid" />
         <item itemvalue="TestNG.StringUtilsTest" />
-        <item itemvalue="TestNG.MyMathTest" />
-        <item itemvalue="TestNG.MyMathTest.testMultiply" />
       </list>
     </recent_temporary>
   </component>
@@ -186,11 +190,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730566278241</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[+] lesson12_1">
+      <option name="closed" value="true" />
+      <created>1730712713462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730712713462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[+] hw11" />
-    <option name="LAST_COMMIT_MESSAGE" value="[+] hw11" />
+    <MESSAGE value="[+] lesson12_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] lesson12_1" />
   </component>
 </project>
