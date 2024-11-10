@@ -5,16 +5,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
 
 public class MainTest {
 
-@Test
-    public void test(){
-// создаем драйвер
+    @Test
+    public void test() {
+// создаем драйвер, браузер с которым будем работать, тут хром
         WebDriver driver = new ChromeDriver();
+        // устанавливаем размер окна браузера
+//        driver.manage().window().maximize();
 //переходим на страницу методом get
         driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 //выставляем ожидания
@@ -28,8 +32,22 @@ public class MainTest {
 
         WebElement message = driver.findElement(By.id("message"));
         Assert.assertEquals(message.getText(), "Received!");
-//закрытие браузера
+//закрытие браузера, полностью завершаются все процессы
         driver.quit();
-    }
 
+/*
+запускается перед новым тестом
+
+    @BeforeMethod
+    public void baseUrl() {
+        driver.get("https://www.selenium.dev/selenium/web/web-form.html");
+        driver.manage().window().maximize();
+
+закрывает тест
+    @AfterTest
+        public void closeBrowser() {
+            driver.quit();
+*/
+
+    }
 }
