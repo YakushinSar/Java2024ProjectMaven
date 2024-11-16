@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="[+] lesson16">
+    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="[+] lesson16_1">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson16_1/Connection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson16_1/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -220,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731429134651</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[+] lesson16_1">
+      <option name="closed" value="true" />
+      <created>1731767492469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731767492469</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +247,8 @@
     <MESSAGE value="[+] lesson12_1" />
     <MESSAGE value="[+] lesson15" />
     <MESSAGE value="[+] lesson16" />
-    <option name="LAST_COMMIT_MESSAGE" value="[+] lesson16" />
+    <MESSAGE value="[+] lesson16_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] lesson16_1" />
   </component>
   <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
     <option name="historyDtoById">
