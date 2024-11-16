@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="[+] lesson15">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson16/Main.java" afterDir="false" />
+    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="[+] lesson16">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson16_1/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson16_1/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +19,7 @@
       <list>
         <option value="TestNG Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,6 +50,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.Sid.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Java2024MavenProject [clean].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -79,7 +82,7 @@
       <recent name="lesson12_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson16.Main" />
       <module name="Java2024MavenProject" />
@@ -93,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson12_1.Sid" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson16_1.MainTest" />
       <module name="Java2024MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw12_1.*" />
+          <option name="PATTERN" value="lesson16_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.MainTest" />
         <item itemvalue="TestNG.MainTest.test" />
         <item itemvalue="TestNG.SidTest" />
-        <item itemvalue="Application.Sid" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731251768044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[+] lesson16">
+      <option name="closed" value="true" />
+      <created>1731429134651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731429134651</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,11 +238,32 @@
     <MESSAGE value="[+] hw11" />
     <MESSAGE value="[+] lesson12_1" />
     <MESSAGE value="[+] lesson15" />
-    <option name="LAST_COMMIT_MESSAGE" value="[+] lesson15" />
+    <MESSAGE value="[+] lesson16" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] lesson16" />
   </component>
   <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
     <option name="historyDtoById">
       <map>
+        <entry key="a0605d">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="a0605d" />
+              <option name="initiateTms" value="1731515016314" />
+              <option name="request" value=" Generate tests for class Main" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Welcome to Machinet AI! To assist you with generating tests for your class, you'll first need to sign in and subscribe to our service.&#10;&#10;Please follow these steps:&#10;&#10;1. Press the 'Sign In' button at the left corner of the chat inside the IDE.&#10;2. You will then be automatically redirected to [Machinet AI Sign In](https://plugin.machinet.net/#signin), where you will be prompted to sign in. The login form contains inputs for email and password.&#10;3. If you don't have an account yet, click the 'Sign Up' button and fill out the registration form.&#10;&#10;After signing in, you can subscribe to our service to access all features. You can choose a Pro or Max subscription at our website: [Machinet AI Pricing](https://plugin.machinet.net/#pricing). You can also use a Pro Trial subscription to test Machinet AI for 10 days.&#10;&#10;Once you're signed in and subscribed, I'll be happy to help you with generating tests for your class!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1731515023539" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/lesson16_1/Main.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/lesson16/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
         <entry key="greeting">
           <value>
             <ChatHistoryModel>
