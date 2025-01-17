@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="[+] lesson23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson24/SelectTest.java" afterDir="false" />
+    <list default="true" id="fe060c87-b39b-4a42-9261-9ec005e8ebf1" name="Changes" comment="[+] lesson24">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson26/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -57,6 +57,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "TestNG.BaseTest.testAcceptAlert.executor": "Run",
+    "TestNG.BaseTest.testAcceptPromt.executor": "Run",
+    "TestNG.BaseTest.testAlertText.executor": "Run",
+    "TestNG.BaseTest.testClickToAlert.executor": "Run",
+    "TestNG.BaseTest.testSlowAlert.executor": "Run",
     "TestNG.MainTest.executor": "Run",
     "TestNG.MainTest.test.executor": "Run",
     "TestNG.MainTest.testOne.executor": "Run",
@@ -99,18 +104,18 @@
       <recent name="lesson12_1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SelectTest.testColorPicker">
-    <configuration name="SelectTest.testColorPicker" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BaseTest.testAcceptPromt">
+    <configuration name="BaseTest.testAcceptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java2024MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson24.*" />
+          <option name="PATTERN" value="lesson26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson24" />
-      <option name="MAIN_CLASS_NAME" value="lesson24.SelectTest" />
-      <option name="METHOD_NAME" value="testColorPicker" />
+      <option name="PACKAGE_NAME" value="lesson26" />
+      <option name="MAIN_CLASS_NAME" value="lesson26.BaseTest" />
+      <option name="METHOD_NAME" value="testAcceptAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,17 +123,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectTest.testDragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseTest.testAcceptPromt" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java2024MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson24.*" />
+          <option name="PATTERN" value="lesson26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson24" />
-      <option name="MAIN_CLASS_NAME" value="lesson24.SelectTest" />
-      <option name="METHOD_NAME" value="testDragAndDrop" />
+      <option name="PACKAGE_NAME" value="lesson26" />
+      <option name="MAIN_CLASS_NAME" value="lesson26.BaseTest" />
+      <option name="METHOD_NAME" value="testAcceptPromt" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,17 +141,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectTest.testDragAndDropBy" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseTest.testAlertText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java2024MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson24.*" />
+          <option name="PATTERN" value="lesson26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson24" />
-      <option name="MAIN_CLASS_NAME" value="lesson24.SelectTest" />
-      <option name="METHOD_NAME" value="testDragAndDropBy" />
+      <option name="PACKAGE_NAME" value="lesson26" />
+      <option name="MAIN_CLASS_NAME" value="lesson26.BaseTest" />
+      <option name="METHOD_NAME" value="testAlertText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,17 +159,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectTest.testDragAndDropToElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseTest.testClickToAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java2024MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson24.*" />
+          <option name="PATTERN" value="lesson26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson24" />
-      <option name="MAIN_CLASS_NAME" value="lesson24.SelectTest" />
-      <option name="METHOD_NAME" value="testDragAndDropToElement" />
+      <option name="PACKAGE_NAME" value="lesson26" />
+      <option name="MAIN_CLASS_NAME" value="lesson26.BaseTest" />
+      <option name="METHOD_NAME" value="testClickToAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -172,17 +177,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectTest.testKeysActions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseTest.testSlowAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java2024MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson24.*" />
+          <option name="PATTERN" value="lesson26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson24" />
-      <option name="MAIN_CLASS_NAME" value="lesson24.SelectTest" />
-      <option name="METHOD_NAME" value="testKeysActions" />
+      <option name="PACKAGE_NAME" value="lesson26" />
+      <option name="MAIN_CLASS_NAME" value="lesson26.BaseTest" />
+      <option name="METHOD_NAME" value="testSlowAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -192,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SelectTest.testColorPicker" />
-        <item itemvalue="TestNG.SelectTest.testDragAndDropToElement" />
-        <item itemvalue="TestNG.SelectTest.testDragAndDropBy" />
-        <item itemvalue="TestNG.SelectTest.testDragAndDrop" />
-        <item itemvalue="TestNG.SelectTest.testKeysActions" />
+        <item itemvalue="TestNG.BaseTest.testAcceptPromt" />
+        <item itemvalue="TestNG.BaseTest.testAcceptAlert" />
+        <item itemvalue="TestNG.BaseTest.testClickToAlert" />
+        <item itemvalue="TestNG.BaseTest.testSlowAlert" />
+        <item itemvalue="TestNG.BaseTest.testAlertText" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736238439619</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[+] lesson24">
+      <option name="closed" value="true" />
+      <created>1736586806580</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736586806580</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,7 +316,8 @@
     <MESSAGE value="[+] lesson16_1" />
     <MESSAGE value="[+] lesson18" />
     <MESSAGE value="[+] lesson23" />
-    <option name="LAST_COMMIT_MESSAGE" value="[+] lesson23" />
+    <MESSAGE value="[+] lesson24" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] lesson24" />
   </component>
   <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
     <option name="historyDtoById">
